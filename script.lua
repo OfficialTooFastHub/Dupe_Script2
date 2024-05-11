@@ -1,4 +1,4 @@
-local gemsleft = "5m"
+local gemsleft = "5M"
 local gemsleftpath = game:GetService('Players').LocalPlayer.PlayerGui.MainLeft.Left.Currency.Diamonds.Diamonds.Amount
 gemsleftpath:GetPropertyChangedSignal("Text"):Connect(function()
     gemsleftpath.Text = gemsleft
